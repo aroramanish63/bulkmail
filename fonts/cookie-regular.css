@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CookieRegular';
+    src: url('cookie-regular.eot');
+    src: url('cookie-regular.eot') format('embedded-opentype'),
+         url('cookie-regular.woff') format('woff'),
+         url('cookie-regular.ttf') format('truetype'),
+         url('cookie-regular.svg#CookieRegular') format('svg');
+}

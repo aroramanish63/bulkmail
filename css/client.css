@@ -1,0 +1,320 @@
+
+
+@font-face {
+	font-family: 'geoslab703_md_btbold';
+	src: url('../fonts/tt0310m-webfont.eot');
+	src: url('../fonts/tt0310m-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/tt0310m-webfont.woff') format('woff'),  url('../fonts/tt0310m-webfont.ttf') format('truetype'),  url('../fonts/tt0310m-webfont.svg#geoslab703_md_btbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'RockwellRegular';
+    src: url('../fonts/rock.eot');
+    src: url('../fonts/rock.eot') format('embedded-opentype'),
+         url('../fonts/rock.woff') format('woff'),
+         url('../fonts/rock.ttf') format('truetype'),
+         url('../fonts/rock.svg#RockwellRegular') format('svg');
+}
+
+
+
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('../fonts/pts55f_1.eot');
+    src: url('../fonts/pts55f_1.eot') format('embedded-opentype'),
+         url('../fonts/pts55f_1.woff') format('woff'),
+         url('../fonts/pts55f_1.ttf') format('truetype'),
+         url('../fonts/pts55f_1.svg#PTSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'CookieRegular';
+    src: url('../fonts/cookie-regular.eot');
+    src: url('../fonts/cookie-regular.eot') format('embedded-opentype'),
+         url('../fonts/cookie-regular.woff') format('woff'),
+         url('../fonts/cookie-regular.ttf') format('truetype'),
+         url('../fonts/cookie-regular.svg#CookieRegular') format('svg');
+}
+
+
+/*---------------------------------------font end here------------------------------------------*/
+
+body {
+	margin: 0px !important;
+	padding: 0px !important;
+	background-color:#FFF;
+	font-family: 'PTSansRegular';
+	font-style: normal;
+}
+*, * focus {
+	margin: 0;
+	outline: medium none;
+	padding: 0;
+}
+a, a img { outline:none; border:none;}
+::-moz-selection { color:#FFF;  background: #ce2f0b; }
+::selection      { color: #FFF;  background: #ce2f0b; } 
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear { clear:both;}
+.txtc {text-align:center;}
+.clear {
+	clear: both;
+}
+.padtop10 {
+	padding-top: 10px;
+}
+.padtb10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.padtop15 {
+	padding-top: 15px;
+}
+.padtop30 {
+	padding-top: 30px;
+}
+.padtop20 {
+	padding-top: 20px;
+}
+.padbot15 {
+	padding-bottom: 15px;
+}
+.padbot10 {
+	padding-bottom: 10px;
+}
+.padtb20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.marleft20 {
+	margin-left: 20px;
+}
+.martop15 {
+	margin-top: 15px;
+}
+.marbot15 {
+	margin-bottom: 15px;
+}
+.marbot10 {
+	margin-bottom: 10px;
+}
+.martb {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.txtcenter {
+	text-align: center;
+}
+a, a img {
+	outline: none;
+	border: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.tc { text-align:center;}
+.tr { text-align:right;}
+.whitebg {background-color:#FFF; }
+h1 { margin:0;  text-align:center; padding:20px;    font-family: 'geoslab703_md_btbold'; font-size:50px; color:#FFF; }
+
+.wrappercontianer { width:100%; float:left; }
+.headercontainer { width:100%; float:left; height:95px; position:fixed; top:0; left:0; z-index:99999 !important;   opacity:0.9;  }
+.header { width:1000px; margin:0 auto; height:95px;   }
+.topmenu { float:right; width:auto; font-size:14px; color:#505050; padding:5px 0 0 0;}
+.topmenu a { font-size:14px; color:#505050; font-family: 'PTSansRegular'; text-decoration:none; padding:0 5px 0 5px;}
+.topmenu a:hover { color:#ce2f0b;}
+.headerright { width:215px; float:right;}
+.callrequestimg { width:100%; float:right; text-align:right; margin:10px 0 0 0;}
+.smstextbox { width:143px; float:left; font-size:22px; color:#8a8a8a; font-family: 'RockwellRegular'; text-align:center; margin:25px 0 0 414px; }
+.smstextbox span { color:#ea4d00; font-size:30px;  font-family: 'RockwellRegular'; font-weight:bold; }
+.logo{ width:227px; float:left; }
+.messageicon { width:30px; float:left; margin-right:10px; margin-top:10px;}
+.headingbox { width:1000px; float:left; padding:20px 0 20px 0; background:url(../images/headingbg.png) repeat-y; text-align:center; margin:100px 0 80px 0;}
+
+
+.tollfree { float:right; height:75px; width:176px; text-align:center; background-color:#ce2f0b; color:#FFF; font-size:20px; padding:20px 0 0 0; font-family: 'geoslab703_md_btbold'; font-weight:bold;}
+.tollfree span { font-size:22px;}
+.wrapper {width:100%; float:left; position:absolute; left:0; top:500px; z-index:55555;  }
+.homemidcontainer { width:1000px; margin:0 auto;}
+.home_right { width:422px; float:right; height:496px;}
+.homeheading { float:left; width:100%; text-align:center; }
+.pagewrap{ width:1000px; float:left; position:relative;}
+.bannercontainer { width:100%; float:left; height:300px;}
+.servicessbox { width:980px; float:left; border:1px solid #d4d4d4; background:#f0f0f0; padding:0px 10px; margin-top:20px;}
+.servicesbox { width:306px; float:left; background:url(../images/divider.png) right top no-repeat; padding:10px 10px 15px 10px;}
+.servicesbox img { text-align:center;}
+.servicesbox p { font-size:16px; color:#000; line-height:22px; width:286px; text-align:justify; height:71px; overflow:hidden; padding:10px 0 0 0;}
+.servicesbox h2 { margin:0; padding:10px 0 0 0; width:286px; text-align:center; font-size:18px; font-family: 'PTSansRegular'; color:#ce0000; font-weight:bold; }
+.readmore a { font-size:16px; font-family: 'RockwellRegular'; font-weight:bold; color:#ef5900; text-decoration:none; margin-right:10px;}
+.readmore a:hover { color:#333;}
+
+.footercontainer { width:100%; float:left; background:url(../images/footerbg2.jpg) repeat-x #e2e2e2; padding:20px 0 20px 0; margin-top:30px;}
+.footercontainer ul { margin:0; padding:0 0 0 20px; width:247px; float:left;}
+.footercontainer ul ul { margin:0; padding:0;}
+
+.footercontainer ul h3 { margin:0; text-align:left; padding:10px 0 10px 0; font-size:18px; color:#d0140b; font-weight:normal;}
+.footercontainer ul li a { font-size:15px; color:#000; text-decoration:none; font-size:15px; line-height:28px;}
+.footercontainer ul li a:hover { color:#f06723;}
+
+
+
+
+/*---------------------------------------DROP DOWN MENU CSS START HERE-----------------------------------------------------------*/
+.menucontainer { width:100%; float:left; height:40px; position:fixed; top:95px; left:0; border-top:5px solid #e7e7e7; z-index:88888 !important;}
+.menu { width:auto; float:left; } 
+.menumid { width:1000px; margin:0 auto; position:relative;}
+.menu ul { margin:0; padding:0; position:absolute; z-index:2000; background:url(../images/menubg.jpg) repeat-x; opacity:1.0 !important; border:1px solid #d7d7d7; border-top:none; height:41px;}
+.menu ul ul.sub-menu {
+    padding:0;
+    margin: 0;
+}
+.menu ul li  {
+   float:left;
+  
+   
+}
+
+.menu ul li a { font-size:17px; text-align:center; color:#333333; float:left;  height:33px;  background:url(../images/menudivider.jpg) no-repeat right top;  text-decoration:none; padding:8px 15px 0 15px  ; position:relative; z-index:99999;   }
+.menu ul li a.last { background:none;}
+.menu ul li a:hover, .menu ul li a.active { background:#e67817;   color:#FFF;}
+
+.menu ul ul.sub-menu li { list-style-type: none;
+    display: inline-block; height:auto !important; z-index:8px !important; }
+	
+/*Link Appearance*/
+ .menu ul li ul.sub-menu li a {
+    text-decoration: none;
+    color: #fff;
+  
+    padding: 8px 10px 8px 10px !important;
+    display:inline-block;
+	font-size:15px;
+	border-bottom:1px solid #c6c6c6;
+	border-right:none;
+	width:300px; background-color:#fff; opacity:1.0 !important; height:auto; color:#333;
+	text-align:left;
+}
+.menu ul li ul.sub-menu li a:hover { background-color:#e8852e; color:#FFF;}
+/*Make the parent of sub-menu relative*/
+.menu ul li {
+    position: relative;
+}
+/*sub menu*/
+.menu ul li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 320px;
+	border:1px solid #c6c6c6;
+	z-index:10;
+	
+}
+.menu ul li:hover ul.sub-menu {
+    display:block;
+}
+/*--------------------------------------DROP DOWN END HERE-----------------------------------------------------------------------*/
+
+
+/*-------------------------------------INNER PAGE CSS START HERE-------------------------------------------------------------*/
+.innerpage { width:1000px; margin:0 auto;}
+
+.fullwidth { width:100%; float:left;}
+.innercontainer { width:100%; float:left; background:url(../images/sliderimg1.jpg) center top;  z-index:5; background-size:100%;   background-attachment:fixed; }
+.maininner-container{ position:relative; width:100%; float:left; z-index:200;}
+.innerpagecontainer h1 { font-size:38px; text-align:left; color:#FFF;   font-family: 'RockwellRegular'; padding:10px 0 0 35px; margin:0; font-weight:normal; text-shadow:none;}
+.innerpagecontainer h2 { font-size:27px; margin:0 0 20px 0; padding:20px 0 20px 0;  background:url(../images/headingline.png) bottom repeat-x; color:#ff7c09; font-family: 'RockwellRegular'; font-weight:normal;}
+.innerpagecontainer h2 span { color:#494949;}
+.innerpagecontainer h3 { font-size:21px; margin:0; padding:0px 0 0px 0px; color:#ff7c09;   font-family: 'RockwellRegular'; font-weight:normal;}
+.innerpagecontainer h3 span { color:#494949;}
+.innerpagecontainer { width:100%; float:left;}
+.midcontainer { width:1000px; margin:0 auto;}
+.pagetopbg { width:100%; float:left; background:url(../images/toparrowbg.png) repeat-x; height:8px;}
+.pagecontent p { font-size:17px; color:#686868; line-height:24px; padding:0px 0 20px 0; }
+.pagecontent p span { color:#ce2f0b; font-weight:bold;}
+.innercontentbg { width:970px; float:left; background:url(../images/pagebg.png);  position:relative; padding:0 15px 25px 15px;}
+.height360 { height:360px; }
+.mobliedevicebg { width:243px; height:375px; padding:42px 20px 20px 20px; position:absolute; right:-5px; top:-220px; background:url(../images/mobilebg.png) no-repeat;}
+.rightheadingbg {width:243px; height:375px; background:url(../images/phonebg.jpg) no-repeat; float:left;}
+.headingbg { width:624px; height:95px; background:url(../images/pageheadingbg.png) no-repeat; position:absolute; top:30px; left:-24px;  }
+.pagecontenttop { float:left; width:700px; padding:0 0 0 0;}
+.pagecontent ul { margin:0px 0 20px 20px; padding:0; }
+.pagecontent ul li { font-size:17px; line-height:30px; color:#686868; list-style:disc;}
+.pagecontent ul li span { font-weight:bold; color:#ce2f0b;}
+.pagecontent ul li.first { list-style:none; margin-left:-20px;}
+.scrollup {
+    background: url("../images/icon_top.png") no-repeat scroll 0 0 transparent;
+    bottom: 50px;
+    display: none;
+    height: 59px;
+    position: fixed;
+    right: 100px;
+    text-indent: -9999px;
+    width: 57px;
+    z-index: 99999 !important;
+}
+.serviceboxicon { width:100%; text-align:center; height:67px; float:left;}
+.black_overlay {
+    background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 700;
+}
+.profile-container {
+   
+  background:url(../images/popbg.png) no-repeat;
+    box-shadow: 0 0 5px #78B0DE;
+	height:243px;
+    left: 35%;
+    min-height: 30%;
+    overflow: hidden;
+    
+    position: fixed;
+    top: 30%;
+    width:413px;
+    z-index: 1002;
+}
+.popcontainer { width:413px; float:left; margin-top:100px; font-size:13px; color:#FFF; text-align:center; }
+.popnumbertext { font-size:14px; text-align:center;}
+.popupform { width:400px; float:left; margin:20px 0 0 42px;}
+.formcols1 { width:80px; float:left; text-align:left; font-size:14px;}
+.formcols1 span, .formcols2 span { font-size:12px;}
+.formcols2 { width:135px; text-align:left; float:left; font-size:14px; margin-left:10px;}
+.marrig10 { margin-right:5px;}
+.popsmallinput1 { width:63px; background:none; border:none; margin:5px 0 5px 0; height:19px; background:url(../images/popupinput1.png) no-repeat; font-size:14px; color:#333; padding:5px;  font-family: 'PTSansRegular'; color:#999999; }
+
+.popmediuminput { width:113px; background:none; border:none; margin:5px 0 5px 0; height:19px; background:url(../images/popupinput2.png) no-repeat; font-size:14px; color:#333; padding:5px;  font-family: 'PTSansRegular'; color:#999999;}
+.submitbut { width:102px; cursor:pointer; height:32px; margin:20px 0 0 0; float:left; background:url(../images/butsubmit.png) no-repeat; height:32px; border:none; }
+.mobliedevicebg h2 { margin:0; padding:0; font-size:43px; padding:10px 0 25px 0; color:#cc0000;  font-family: 'CookieRegular'; line-height:35px; text-align:center; background:none;}
+.mobliedevicebg h2 span { color:#565656;}
+
+/*----------------------------------------INNER PAGE CSS END HERE------------------------------------------------------------*/
+
+
+/*--------------------------------------SLIDER CSS START HERE--*/
+
+
+
+
+.bgoverlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: transparent url(../images/pattern.png) repeat top left;
+	z-index:10;
+}
